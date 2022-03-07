@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Shape.h
+
+/home/xiankehe/Demonstration/teamleader/main.cpp
+iostream
+-
+Shape.h
+/home/xiankehe/Demonstration/teamleader/Shape.h
+
+/home/xiankehe/Demonstration/teamleader/src/Shape.cpp
+Shape.h
+/home/xiankehe/Demonstration/teamleader/src/Shape.h
+iostream
+-
+
