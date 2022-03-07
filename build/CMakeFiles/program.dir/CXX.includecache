@@ -8,15 +8,25 @@
 
 ../include/Shape.h
 
-/home/xiankehe/Demonstration/teamleader/main.cpp
+../include/Square.h
+Shape.h
+../include/Shape.h
+
+/home/xiankehe/Demonstration/worker_A/Tutorial7/main.cpp
 iostream
 -
-Shape.h
-/home/xiankehe/Demonstration/teamleader/Shape.h
+Square.h
+/home/xiankehe/Demonstration/worker_A/Tutorial7/Square.h
 
-/home/xiankehe/Demonstration/teamleader/src/Shape.cpp
+/home/xiankehe/Demonstration/worker_A/Tutorial7/src/Shape.cpp
 Shape.h
-/home/xiankehe/Demonstration/teamleader/src/Shape.h
+/home/xiankehe/Demonstration/worker_A/Tutorial7/src/Shape.h
+iostream
+-
+
+/home/xiankehe/Demonstration/worker_A/Tutorial7/src/Square.cpp
+Square.h
+/home/xiankehe/Demonstration/worker_A/Tutorial7/src/Square.h
 iostream
 -
 

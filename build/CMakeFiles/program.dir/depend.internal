@@ -3,7 +3,12 @@
 
 CMakeFiles/program.dir/main.o
  ../include/Shape.h
- /home/xiankehe/Demonstration/teamleader/main.cpp
+ ../include/Square.h
+ /home/xiankehe/Demonstration/worker_A/Tutorial7/main.cpp
 CMakeFiles/program.dir/src/Shape.o
  ../include/Shape.h
- /home/xiankehe/Demonstration/teamleader/src/Shape.cpp
+ /home/xiankehe/Demonstration/worker_A/Tutorial7/src/Shape.cpp
+CMakeFiles/program.dir/src/Square.o
+ ../include/Shape.h
+ ../include/Square.h
+ /home/xiankehe/Demonstration/worker_A/Tutorial7/src/Square.cpp

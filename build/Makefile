@@ -48,10 +48,10 @@ RM = /opt_remote/cmake/3.16.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xiankehe/Demonstration/teamleader
+CMAKE_SOURCE_DIR = /home/xiankehe/Demonstration/worker_A/Tutorial7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xiankehe/Demonstration/teamleader/build
+CMAKE_BINARY_DIR = /home/xiankehe/Demonstration/worker_A/Tutorial7/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/teamleader/build/CMakeFiles /home/xiankehe/Demonstration/teamleader/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/teamleader/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -153,6 +153,21 @@ src/Shape.s:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Shape.s
 .PHONY : src/Shape.s
 
+# target to build an object file
+src/Square.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Square.o
+.PHONY : src/Square.o
+
+# target to preprocess a source file
+src/Square.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Square.i
+.PHONY : src/Square.i
+
+# target to generate assembly for a file
+src/Square.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Square.s
+.PHONY : src/Square.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -168,6 +183,9 @@ help:
 	@echo "... src/Shape.o"
 	@echo "... src/Shape.i"
 	@echo "... src/Shape.s"
+	@echo "... src/Square.o"
+	@echo "... src/Square.i"
+	@echo "... src/Square.s"
 .PHONY : help
 
 

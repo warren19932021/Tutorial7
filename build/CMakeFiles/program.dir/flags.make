@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/xiankehe/Demonstration/teamleader/include 
+CXX_INCLUDES = -I/home/xiankehe/Demonstration/worker_A/Tutorial7/include 
 
