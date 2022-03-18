@@ -1,3 +1,3 @@
-/home/xiankehe/Demonstration/teamleader/build/CMakeFiles/rebuild_cache.dir
-/home/xiankehe/Demonstration/teamleader/build/CMakeFiles/edit_cache.dir
-/home/xiankehe/Demonstration/teamleader/build/CMakeFiles/program.dir
+/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/rebuild_cache.dir
+/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/edit_cache.dir
+/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/program.dir

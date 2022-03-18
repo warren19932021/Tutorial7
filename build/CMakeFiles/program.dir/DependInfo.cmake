@@ -4,8 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/xiankehe/Demonstration/teamleader/main.cpp" "/home/xiankehe/Demonstration/teamleader/build/CMakeFiles/program.dir/main.o"
-  "/home/xiankehe/Demonstration/teamleader/src/Shape.cpp" "/home/xiankehe/Demonstration/teamleader/build/CMakeFiles/program.dir/src/Shape.o"
+  "/home/xiankehe/Demonstration/worker_B/Tutorial7/main.cpp" "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/program.dir/main.o"
+  "/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Rectangle.cpp" "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/program.dir/src/Rectangle.o"
+  "/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Shape.cpp" "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/program.dir/src/Shape.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

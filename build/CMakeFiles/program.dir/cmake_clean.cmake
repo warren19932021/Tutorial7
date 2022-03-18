@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/program.dir/main.o"
+  "CMakeFiles/program.dir/src/Rectangle.o"
   "CMakeFiles/program.dir/src/Shape.o"
   "program"
   "program.pdb"

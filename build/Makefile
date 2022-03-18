@@ -48,10 +48,10 @@ RM = /opt_remote/cmake/3.16.0/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/xiankehe/Demonstration/teamleader
+CMAKE_SOURCE_DIR = /home/xiankehe/Demonstration/worker_B/Tutorial7
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/xiankehe/Demonstration/teamleader/build
+CMAKE_BINARY_DIR = /home/xiankehe/Demonstration/worker_B/Tutorial7/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/teamleader/build/CMakeFiles /home/xiankehe/Demonstration/teamleader/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/teamleader/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -139,6 +139,21 @@ main.s:
 .PHONY : main.s
 
 # target to build an object file
+src/Rectangle.o:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Rectangle.o
+.PHONY : src/Rectangle.o
+
+# target to preprocess a source file
+src/Rectangle.i:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Rectangle.i
+.PHONY : src/Rectangle.i
+
+# target to generate assembly for a file
+src/Rectangle.s:
+	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Rectangle.s
+.PHONY : src/Rectangle.s
+
+# target to build an object file
 src/Shape.o:
 	$(MAKE) -f CMakeFiles/program.dir/build.make CMakeFiles/program.dir/src/Shape.o
 .PHONY : src/Shape.o
@@ -165,6 +180,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... src/Rectangle.o"
+	@echo "... src/Rectangle.i"
+	@echo "... src/Rectangle.s"
 	@echo "... src/Shape.o"
 	@echo "... src/Shape.i"
 	@echo "... src/Shape.s"
