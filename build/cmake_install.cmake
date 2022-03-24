@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Install script for directory: /home/xiankehe/Demonstration/worker_A/Tutorial7
+=======
+# Install script for directory: /home/xiankehe/Demonstration/worker_B/Tutorial7
+>>>>>>> worker_B
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +49,9 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
+<<<<<<< HEAD
 file(WRITE "/home/xiankehe/Demonstration/worker_A/Tutorial7/build/${CMAKE_INSTALL_MANIFEST}"
+=======
+file(WRITE "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/${CMAKE_INSTALL_MANIFEST}"
+>>>>>>> worker_B
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

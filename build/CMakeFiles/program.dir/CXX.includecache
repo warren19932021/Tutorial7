@@ -6,8 +6,13 @@
 
 #IncludeRegexTransform: 
 
+../include/Rectangle.h
+Shape.h
 ../include/Shape.h
 
+../include/Shape.h
+
+<<<<<<< HEAD
 ../include/Square.h
 Shape.h
 ../include/Shape.h
@@ -27,6 +32,23 @@ iostream
 /home/xiankehe/Demonstration/worker_A/Tutorial7/src/Square.cpp
 Square.h
 /home/xiankehe/Demonstration/worker_A/Tutorial7/src/Square.h
+=======
+/home/xiankehe/Demonstration/worker_B/Tutorial7/main.cpp
+iostream
+-
+Rectangle.h
+/home/xiankehe/Demonstration/worker_B/Tutorial7/Rectangle.h
+
+/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Rectangle.cpp
+Rectangle.h
+/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Rectangle.h
+iostream
+-
+
+/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Shape.cpp
+Shape.h
+/home/xiankehe/Demonstration/worker_B/Tutorial7/src/Shape.h
+>>>>>>> worker_B
 iostream
 -
 

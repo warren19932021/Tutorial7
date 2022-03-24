@@ -6,5 +6,9 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
+<<<<<<< HEAD
 CXX_INCLUDES = -I/home/xiankehe/Demonstration/worker_A/Tutorial7/include 
+=======
+CXX_INCLUDES = -I/home/xiankehe/Demonstration/worker_B/Tutorial7/include 
+>>>>>>> worker_B
 

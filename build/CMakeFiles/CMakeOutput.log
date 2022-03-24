@@ -10,7 +10,11 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
+<<<<<<< HEAD
 The C compiler identification is GNU, found in "/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/3.16.0/CompilerIdC/a.out"
+=======
+The C compiler identification is GNU, found in "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/3.16.0/CompilerIdC/a.out"
+>>>>>>> worker_B
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1 
@@ -23,6 +27,7 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
+<<<<<<< HEAD
 The CXX compiler identification is GNU, found in "/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/3.16.0/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
@@ -36,24 +41,53 @@ Linking C executable cmTC_c0348
 /opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0348.dir/link.txt --verbose=1
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1      -rdynamic CMakeFiles/cmTC_c0348.dir/testCCompiler.c.o  -o cmTC_c0348 
 gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
+=======
+The CXX compiler identification is GNU, found in "/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/3.16.0/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e258f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_e258f.dir/build.make CMakeFiles/cmTC_e258f.dir/build
+gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e258f.dir/testCCompiler.c.o
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1    -o CMakeFiles/cmTC_e258f.dir/testCCompiler.c.o   -c /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_e258f
+/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e258f.dir/link.txt --verbose=1
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1      -rdynamic CMakeFiles/cmTC_e258f.dir/testCCompiler.c.o  -o cmTC_e258f 
+gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+>>>>>>> worker_B
 
 
 
 Detecting C compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/gmake cmTC_da3e1/fast && /usr/bin/gmake -f CMakeFiles/cmTC_da3e1.dir/build.make CMakeFiles/cmTC_da3e1.dir/build
 gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
 Building C object CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1   -v -o CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o   -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+=======
+Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_a60de/fast && /usr/bin/gmake -f CMakeFiles/cmTC_a60de.dir/build.make CMakeFiles/cmTC_a60de.dir/build
+gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1   -v -o CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o   -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+>>>>>>> worker_B
 Using built-in specs.
 COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1
 Target: x86_64-pc-linux-gnu
 Configured with: ../gcc-7.1.0/configure -v --prefix=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install --enable-languages=c,c++,fortran --program-suffix=-7.1
 Thread model: posix
 gcc version 7.1.0 (GCC) 
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
  /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1 -quiet -v /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o -version -o /tmp/xiankehe/ccgrpfHV.s
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1 -quiet -v /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o -version -o /tmp/xiankehe/ccpoyEnj.s
+>>>>>>> worker_B
 GNU C11 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 7.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
@@ -72,6 +106,7 @@ GNU C11 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: d841f7e46af33c7f0dc3cc5e85de90df
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
  as -v --64 -o CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o /tmp/xiankehe/ccgrpfHV.s
 GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
@@ -81,6 +116,17 @@ COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o' 
 Linking C executable cmTC_da3e1
 /opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da3e1.dir/link.txt --verbose=1
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1     -v -rdynamic CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o  -o cmTC_da3e1 
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o /tmp/xiankehe/ccpoyEnj.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_a60de
+/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60de.dir/link.txt --verbose=1
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1     -v -rdynamic CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o  -o cmTC_a60de 
+>>>>>>> worker_B
 Using built-in specs.
 COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1
 COLLECT_LTO_WRAPPER=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper
@@ -90,10 +136,17 @@ Thread model: posix
 gcc version 7.1.0 (GCC) 
 COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da3e1' '-mtune=generic' '-march=x86-64'
  /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da3e1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da3e1' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
+=======
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a60de' '-mtune=generic' '-march=x86-64'
+ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a60de /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a60de' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+>>>>>>> worker_B
 
 
 
@@ -116,20 +169,34 @@ Parsed C implicit include dir info from above output: rv=done
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_da3e1/fast && /usr/bin/gmake -f CMakeFiles/cmTC_da3e1.dir/build.make CMakeFiles/cmTC_da3e1.dir/build]
   ignore line: [gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp']
   ignore line: [Building C object CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o]
   ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1   -v -o CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o   -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+=======
+  ignore line: [Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_a60de/fast && /usr/bin/gmake -f CMakeFiles/cmTC_a60de.dir/build.make CMakeFiles/cmTC_a60de.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1   -v -o CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o   -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+>>>>>>> worker_B
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../gcc-7.1.0/configure -v --prefix=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install --enable-languages=c c++ fortran --program-suffix=-7.1]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.1.0 (GCC) ]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
   ignore line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1 -quiet -v /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o -version -o /tmp/xiankehe/ccgrpfHV.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1 -quiet -v /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o -version -o /tmp/xiankehe/ccpoyEnj.s]
+>>>>>>> worker_B
   ignore line: [GNU C11 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
   ignore line: []
@@ -148,6 +215,7 @@ Parsed C implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: d841f7e46af33c7f0dc3cc5e85de90df]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
   ignore line: [ as -v --64 -o CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o /tmp/xiankehe/ccgrpfHV.s]
   ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
@@ -157,6 +225,17 @@ Parsed C implicit link information from above output:
   ignore line: [Linking C executable cmTC_da3e1]
   ignore line: [/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da3e1.dir/link.txt --verbose=1]
   ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1     -v -rdynamic CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o  -o cmTC_da3e1 ]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o /tmp/xiankehe/ccpoyEnj.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_a60de]
+  ignore line: [/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a60de.dir/link.txt --verbose=1]
+  ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1     -v -rdynamic CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o  -o cmTC_a60de ]
+>>>>>>> worker_B
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/gcc-7.1]
   ignore line: [COLLECT_LTO_WRAPPER=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper]
@@ -166,8 +245,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 7.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_da3e1' '-mtune=generic' '-march=x86-64']
   link line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_da3e1 /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_a60de' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_a60de /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o]
+>>>>>>> worker_B
     arg [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -176,7 +260,11 @@ Parsed C implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_da3e1] ==> ignore
+=======
+    arg [cmTC_a60de] ==> ignore
+>>>>>>> worker_B
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o] ==> ignore
@@ -185,7 +273,11 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../..] ==> dir [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../..]
+<<<<<<< HEAD
     arg [CMakeFiles/cmTC_da3e1.dir/CMakeCCompilerABI.c.o] ==> ignore
+=======
+    arg [CMakeFiles/cmTC_a60de.dir/CMakeCCompilerABI.c.o] ==> ignore
+>>>>>>> worker_B
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -208,6 +300,7 @@ Parsed C implicit link information from above output:
 
 
 Determining if the CXX compiler works passed with the following output:
+<<<<<<< HEAD
 Change Dir: /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/gmake cmTC_ab706/fast && /usr/bin/gmake -f CMakeFiles/cmTC_ab706.dir/build.make CMakeFiles/cmTC_ab706.dir/build
@@ -218,24 +311,50 @@ Linking CXX executable cmTC_ab706
 /opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab706.dir/link.txt --verbose=1
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1       -rdynamic CMakeFiles/cmTC_ab706.dir/testCXXCompiler.cxx.o  -o cmTC_ab706 
 gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
+=======
+Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_085e2/fast && /usr/bin/gmake -f CMakeFiles/cmTC_085e2.dir/build.make CMakeFiles/cmTC_085e2.dir/build
+gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_085e2.dir/testCXXCompiler.cxx.o
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1     -o CMakeFiles/cmTC_085e2.dir/testCXXCompiler.cxx.o -c /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_085e2
+/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_085e2.dir/link.txt --verbose=1
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1       -rdynamic CMakeFiles/cmTC_085e2.dir/testCXXCompiler.cxx.o  -o cmTC_085e2 
+gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+>>>>>>> worker_B
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
+<<<<<<< HEAD
 Change Dir: /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp
 
 Run Build Command(s):/usr/bin/gmake cmTC_305ee/fast && /usr/bin/gmake -f CMakeFiles/cmTC_305ee.dir/build.make CMakeFiles/cmTC_305ee.dir/build
 gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
 Building CXX object CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1    -v -o CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+=======
+Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_5bcdd/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5bcdd.dir/build.make CMakeFiles/cmTC_5bcdd.dir/build
+gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1    -v -o CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+>>>>>>> worker_B
 Using built-in specs.
 COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1
 Target: x86_64-pc-linux-gnu
 Configured with: ../gcc-7.1.0/configure -v --prefix=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install --enable-languages=c,c++,fortran --program-suffix=-7.1
 Thread model: posix
 gcc version 7.1.0 (GCC) 
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/xiankehe/ccHkIUAv.s
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/xiankehe/ccOLmZih.s
+>>>>>>> worker_B
 GNU C++14 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
 	compiled by GNU C version 7.1.0, GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.16.1-GMP
 
@@ -257,6 +376,7 @@ GNU C++14 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)
 
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: cb2103cbd574f506610b303708c7015a
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  as -v --64 -o CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o /tmp/xiankehe/ccHkIUAv.s
 GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
@@ -266,6 +386,17 @@ COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp
 Linking CXX executable cmTC_305ee
 /opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_305ee.dir/link.txt --verbose=1
 /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1      -v -rdynamic CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_305ee 
+=======
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o /tmp/xiankehe/ccOLmZih.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1
+COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_5bcdd
+/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bcdd.dir/link.txt --verbose=1
+/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1      -v -rdynamic CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5bcdd 
+>>>>>>> worker_B
 Using built-in specs.
 COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1
 COLLECT_LTO_WRAPPER=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper
@@ -275,10 +406,17 @@ Thread model: posix
 gcc version 7.1.0 (GCC) 
 COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/
+<<<<<<< HEAD
 COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_305ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
  /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_305ee /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
 COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_305ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
 gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp'
+=======
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5bcdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5bcdd /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5bcdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp'
+>>>>>>> worker_B
 
 
 
@@ -307,20 +445,34 @@ Parsed CXX implicit include dir info from above output: rv=done
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+<<<<<<< HEAD
   ignore line: [Change Dir: /home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp]
   ignore line: []
   ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_305ee/fast && /usr/bin/gmake -f CMakeFiles/cmTC_305ee.dir/build.make CMakeFiles/cmTC_305ee.dir/build]
   ignore line: [gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_A/Tutorial7/build/CMakeFiles/CMakeTmp']
   ignore line: [Building CXX object CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o]
   ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1    -v -o CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+=======
+  ignore line: [Change Dir: /home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_5bcdd/fast && /usr/bin/gmake -f CMakeFiles/cmTC_5bcdd.dir/build.make CMakeFiles/cmTC_5bcdd.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/xiankehe/Demonstration/worker_B/Tutorial7/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1    -v -o CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -c /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+>>>>>>> worker_B
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1]
   ignore line: [Target: x86_64-pc-linux-gnu]
   ignore line: [Configured with: ../gcc-7.1.0/configure -v --prefix=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install --enable-languages=c c++ fortran --program-suffix=-7.1]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 7.1.0 (GCC) ]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/xiankehe/ccHkIUAv.s]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/cc1plus -quiet -v -D_GNU_SOURCE /opt_remote/cmake/3.16.0/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/xiankehe/ccOLmZih.s]
+>>>>>>> worker_B
   ignore line: [GNU C++14 (GCC) version 7.1.0 (x86_64-pc-linux-gnu)]
   ignore line: [	compiled by GNU C version 7.1.0  GMP version 6.1.0  MPFR version 3.1.4  MPC version 1.0.3  isl version isl-0.16.1-GMP]
   ignore line: []
@@ -342,6 +494,7 @@ Parsed CXX implicit link information from above output:
   ignore line: []
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: cb2103cbd574f506610b303708c7015a]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   ignore line: [ as -v --64 -o CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o /tmp/xiankehe/ccHkIUAv.s]
   ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
@@ -351,6 +504,17 @@ Parsed CXX implicit link information from above output:
   ignore line: [Linking CXX executable cmTC_305ee]
   ignore line: [/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_305ee.dir/link.txt --verbose=1]
   ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1      -v -rdynamic CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_305ee ]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o /tmp/xiankehe/ccOLmZih.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-44.base.el7_9.1]
+  ignore line: [COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_5bcdd]
+  ignore line: [/opt_remote/cmake/3.16.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bcdd.dir/link.txt --verbose=1]
+  ignore line: [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1      -v -rdynamic CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_5bcdd ]
+>>>>>>> worker_B
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/bin/g++-7.1]
   ignore line: [COLLECT_LTO_WRAPPER=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/lto-wrapper]
@@ -360,8 +524,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 7.1.0 (GCC) ]
   ignore line: [COMPILER_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../:/lib/:/usr/lib/]
+<<<<<<< HEAD
   ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_305ee' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
   link line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_305ee /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o]
+=======
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_5bcdd' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2 --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_5bcdd /lib/../lib64/crt1.o /lib/../lib64/crti.o /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../.. CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtend.o /lib/../lib64/crtn.o]
+>>>>>>> worker_B
     arg [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/libexec/gcc/x86_64-pc-linux-gnu/7.1.0/collect2] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
@@ -370,7 +539,11 @@ Parsed CXX implicit link information from above output:
     arg [-dynamic-linker] ==> ignore
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-o] ==> ignore
+<<<<<<< HEAD
     arg [cmTC_305ee] ==> ignore
+=======
+    arg [cmTC_5bcdd] ==> ignore
+>>>>>>> worker_B
     arg [/lib/../lib64/crt1.o] ==> ignore
     arg [/lib/../lib64/crti.o] ==> ignore
     arg [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/crtbegin.o] ==> ignore
@@ -379,7 +552,11 @@ Parsed CXX implicit link information from above output:
     arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
     arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
     arg [-L/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../..] ==> dir [/soft/users/neutrino/gcc/7.1.0/gcc-7.1.0-install/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../..]
+<<<<<<< HEAD
     arg [CMakeFiles/cmTC_305ee.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+=======
+    arg [CMakeFiles/cmTC_5bcdd.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+>>>>>>> worker_B
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
